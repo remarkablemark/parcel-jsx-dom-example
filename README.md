@@ -1,14 +1,14 @@
-# parcel-typescript-example
+# parcel-jsx-dom-example
 
-[Parcel](https://parceljs.org/) [TypeScript](https://www.typescriptlang.org/) example.
+[Parcel](https://parceljs.org/) [jsx-dom](https://github.com/alex-kinokon/jsx-dom) example.
 
 ## Install
 
 Clone the repository:
 
 ```sh
-git clone https://github.com/remarkablemark/parcel-typescript-example.git
-cd parcel-typescript-example
+git clone https://github.com/remarkablemark/parcel-jsx-dom-example.git
+cd parcel-jsx-dom-example
 ```
 
 Install the dependencies:
