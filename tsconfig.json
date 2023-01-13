@@ -2,7 +2,9 @@
   "compilerOptions": {
     "skipLibCheck": true,
     "strict": true,
-    "target": "es2021"
+    "target": "es2021",
+    "jsx": "react-jsx",
+    "jsxImportSource": "jsx-dom"
   },
   "include": ["src/**/*"]
 }
