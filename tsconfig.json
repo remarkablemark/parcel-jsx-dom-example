@@ -3,6 +3,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2021",
+    "moduleResolution": "node",
     "jsx": "react-jsx",
     "jsxImportSource": "jsx-dom"
   },
