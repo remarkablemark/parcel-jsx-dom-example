@@ -8,7 +8,7 @@
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "devDependencies": {
-    "jsx-dom": "8.0.3",
+    "jsx-dom": "8.0.4",
     "parcel": "2.8.2",
     "typescript": "4.9.4"
   }
