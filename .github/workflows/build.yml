@@ -24,11 +24,12 @@ jobs:
         run: npm run type-check
 
       - name: Build
-        run: npm run build -- --public-url https://remarkablemark.org/${{ github.event.repository.name }}
+        run: >
+          npm run build --
+          --public-url https://remarkablemark.org/${{ github.event.repository.name }}
 
       - name: Deploy
-        if: github.ref == 'refs/heads/master'
-        uses: JamesIves/github-pages-deploy-action@v4
+        if: github.ref_name == 'master'
+        uses: remarkablemark/gitploy-action@v1
         with:
-          branch: gh-pages
-          folder: dist
+          directory: dist
